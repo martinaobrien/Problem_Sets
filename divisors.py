@@ -11,6 +11,6 @@
 lower = int (input ('Enter Number in lower range: '))
 upper = int (input ('Enter Number in upper range: '))
 for i in range (lower, upper):
-    if (i%6==0):
+    if (i %6 ==0) and (i %12 != 0):
         print (i)
 
