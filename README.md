@@ -3,6 +3,7 @@
 # Submission Date 31st of March, 2019
 
 #List of Problem Sets
+
 sumupto.py
 
 begins-with-t.py
@@ -22,3 +23,11 @@ datetime.py
 second.py moby-dick.txt
 
 function plots.py
+
+
+
+# Challenges and Recommendation
+
+# Key Learning from the Problem Set
+
+# General References
