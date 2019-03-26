@@ -13,7 +13,8 @@ This problem set seeks to calculate the sum of all the numbers between one and a
 Problem Set 2 begins-with-t.py
 This programme outputs whether today is a day that starts with a T. This programme using an 'if' and 'else' statement to determine this using the datetime function.
 
-python divisors.py
+Problem Set 3 python divisors.py
+This programme prints all the numbers between two integers that are divisible by 6 but not 12
 
 collatz.py
 
@@ -29,10 +30,6 @@ second.py moby-dick.txt
 
 function plots.py
 
-
-
-# Challenges and Recommendation
-
 # Key Learning from the Problem Set
 Problem Set 1: 
 Input variable is needed for calculation
@@ -44,7 +41,11 @@ Problem Set 2:
 Import 'datetime' function to enable the programme to work with dates as date objects as this is not innate.
 Use of "if" and "else" statement to determine whether or not the statement is true
 
+Problem Set 3: 
+This problem uses a for loop statement to go through a number of interations as the programme has to consider all integers between to two inputted numbers. Only true statements are printed out in a list format. 
+
 
 # General References
 www.pynative.com: Python range() Function Explained with Examples Accessed on March, 26th 2019 https://pynative.com/python-range-function/
+
  
