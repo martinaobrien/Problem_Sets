@@ -5,7 +5,9 @@
 Introduction to Programming and Scripting Problem set designed to develop programmes usings python programming language. 
 
 #List of Problem Sets
+
 Problem Set 1 sumupto.py
+
 This problem set seeks to calculate the sum of all the numbers between one and an inputted by the user. 
 
 Problem Set 2 begins-with-t.py
