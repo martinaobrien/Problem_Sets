@@ -10,7 +10,8 @@
 
 lower = int (input ('Enter Number in lower range: '))
 upper = int (input ('Enter Number in upper range: '))
-for i in range (lower, upper):
-    if (i %6 ==0) and (i %12 != 0):
+for i in range (lower, upper):#for loop will be run as long as i is in range
+    if (i %6 ==0) and (i %12 != 0): # Two statements are contained in the one if statement
+    # Only true statements will be outputted.
         print (i)
 
