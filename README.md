@@ -42,6 +42,7 @@ Indentation is key expecially as the print function is not part of the previous 
 
 Problem Set 2:
 Import 'datetime' function to enable the programme to work with dates as date objects as this is not innate.
+Use of "if" and "else" statement to determine whether or not the statement is true
 
 
 # General References
