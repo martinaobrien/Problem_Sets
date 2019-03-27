@@ -19,6 +19,7 @@ This programme prints all the numbers between two integers that are divisible by
 collatz.py
 
 priimes.py
+This problem uses a control flow that executes a code block that meets certain conditions to identify whether or not the number the user inputs is a prime number.
 
 secondstring.py
 
@@ -44,8 +45,15 @@ Use of "if" and "else" statement to determine whether or not the statement is tr
 Problem Set 3: 
 This problem uses a for loop statement to go through a number of interations as the programme has to consider all integers between to two inputted numbers. Only true statements are printed out in a list format. 
 
+Problem Set 4:
+
+Problem Set 5: 
+This problem uses a control flow that executes a code block that meets certain conditions. 
+The statements must be nested in order to be executes sequentially
+
 
 # General References
 www.pynative.com: Python range() Function Explained with Examples Accessed on March, 26th 2019 https://pynative.com/python-range-function/
+A Whirlwind Tour of Python by Jake VanderPlas (O’Reilly). Copyright 2016 O’Reilly Media, Inc., 978-1-491-96465-1. Accessed on March, 27th 2019 https://www.oreilly.com/programming/free/files/a-whirlwind-tour-of-python.pdf 
 
  
