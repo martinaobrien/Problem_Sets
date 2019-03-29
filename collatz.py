@@ -8,21 +8,21 @@
 # Input will then be calculated as per loop statements
 # setting up variables to be used later in while loop
 
-i = input ('Enter Number: ')
+i = int(input ('Enter Number: '))
 
-#if i >= 0: # integer has to be greater than 0, the if statement investigates whether an argument is true
-    def collatz (number): #a python program to 
-        if number %2== 0: # this determines whether or not the integer is even
-            print (number//2) #determines if the number is even
-            return number//2
+if i >= 0: # integer has to be greater than 0, the if statement investigates whether an argument is true
+    def collatz(number):
+        if number % 2 == 0: #a python program to 
+            print(number // 2) # this determines whether or not the integer is even
+            return number // 2 #determines if the number is even
 
-        elif number %2== 1:
-            result= (number *3 + 1)
-             print (result)
-             return result
+        elif number % 2 == 1:
+            result = 3 * number + 1
+            print(result)
+            return result
+
 
     while i != 1:
         i = collatz(int(i))
-
-#else: 
- #   print('This is not a positive number')
+else: 
+    print('This is not a positive number')
