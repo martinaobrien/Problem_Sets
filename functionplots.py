@@ -4,8 +4,18 @@
 
 #import mglearn
 import matplotlib.pyplot as plt
+import numpy as np
+
  
-plt.plot (0,1,2,3,4)  
+lower = int(input('enter lower: '))
+# This variables 'lower' is going to allow the user to set the lower part of the range.
+upper = int(input('enter upper: '))
+# This variables 'upper' is going to allow the user to set the upper part of the range.
+
+x = np.arange(lower, upper)
+
+plt.plot (x)  
 plt.xlabel("number") 
 plt.ylabel("number")
 plt.show()
+
