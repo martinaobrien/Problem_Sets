@@ -4,9 +4,11 @@
 
 # Input string needed for programme
 
-i = str(input ('Enter your text here":))
+sentence = (input("Enter your text here:"))
 
-even_words = str split ()
+str = sentence
 
-print even_words ([::2])
+every_second_word = str.split()[::2]
+
+print (every_second_word)
 
