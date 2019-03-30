@@ -2,13 +2,18 @@
 # Problem Set Programming and Scripting Code 6
 # Output gives selected words in a string
 
-# Input string needed for programme
+sentence = (input("Enter your text here:")) # Input string needed for programme
 
-sentence = (input("Enter your text here:"))
+str = sentence #users input is set as a string
 
-str = sentence
+every_second_word = str.split()[::2] 
+# str.split() denotes what will happen to the string
+#[::2] ensures that every second word is extracted and is outputted in a list 
+#Reference:https://www.geeksforgeeks.org/python-string-split/
+#Reference:https://www.pythonforbeginners.com/dictionary/python-split 
 
-every_second_word = str.split()[::2]
-
-print (every_second_word)
+print (''.join(every_second_word))
+# Using ''.join takes the quotation marks and commas away from the output, constructing a new sentence. 
+# '' denotes was will be outputted between each of the words
+# Reference: https://www.tutorialspoint.com/python3/string_join.htm
 
