@@ -13,8 +13,9 @@ upper = int(input('enter upper: '))
 # This variables 'upper' is going to allow the user to set the upper part of the range.
 
 x = np.arange(lower, upper)
+#x creates the range for lower and upper values
 
-plt.plot (x)  
+plt.plot (x,x)  
 plt.xlabel("number") 
 plt.ylabel("number")
 plt.show()
