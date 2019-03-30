@@ -9,7 +9,10 @@ Introduction to Programming and Scripting Problem set designed to develop progra
 Problem Set 1 sumupto.py
 
 This problem set seeks to calculate the sum of all the numbers between one and an inputted by the user. 
-
+Input variable is needed for calculation
+Ensure that value of inputted number is positive by including the syntax ==0. 
+While loop was inserted, the programme kept looping in the while loop as long as the argument is true
+Indentation is key expecially as the print function is not part of the previous statement and programme will continue to learn as it will not view the loop as being complete and the argument as false
 Problem Set 2 begins-with-t.py
 This programme outputs whether today is a day that starts with a T. This programme using an 'if' and 'else' statement to determine this using the datetime function.
 
@@ -37,10 +40,7 @@ function plots.py
 
 # Key Learning from the Problem Set
 Problem Set 1: 
-Input variable is needed for calculation
-Ensure that value of inputted number is positive by including the syntax ==0. 
-While loop was inseted, the programme kept looping in the while loop as long as the argument is true
-Indentation is key expecially as the print function is not part of the previous statement and programme will continue to learn as it will not view the loop as being complete and the argument as false
+
 
 Problem Set 2:
 Import 'datetime' function to enable the programme to work with dates as date objects as this is not innate.
@@ -62,9 +62,14 @@ This problem looks at dissecting strings of texts using the the string.split fun
 Additional functions must be executed such as ''.join and the use of list brackets []. 
 
 Problem Set 7:
+This problem used try and except to control the flow of user input and catch any errors to ensure a positive integer input
+This problem alsoas incorporated floating point numbers float (num)
+
 
 Problem Set 8: 
-The problem imports the module datetime and using specific striftime coding, the program outputs today's date and time in a specific format.
+The problem imports the module datetime and using specific striftime coding, the program outputs today's date and time in a specific format. 
+The use of strftime method returns a string of date and time using the datetime object 
+The use of .get enables an output if the other statements are false rather that outputting an error message
 
 
 
@@ -75,4 +80,5 @@ www.pynative.com: Python range() Function Explained with Examples Accessed on Ma
 https://www.pythonforbeginners.com/ Last Accessed March, 30th 2019
 https://docs.python.org/3/tutorial/introduction.html Last Accessed March, 30th 2019
 https://www.w3schools.com/python/python_modules.asp 
+https://www.programiz.com/python-programming/datetime/strftime
  
