@@ -7,14 +7,15 @@
 # input "Enter Number" will be visible on the user interface
 # Input will then be calculated as per loop statements
 # setting up variables to be used later in while loop
+# Reference for code: adapted from https://www.webucator.com/blog/2015/07/collatz-conjecture-in-python/
 
 i = int(input ('Enter Number: '))
 
 if i >= 0: # integer has to be greater than 0, the if statement investigates whether an argument is true
-    def collatz(number):
-        if number % 2 == 0: #a python program to 
-            print(number // 2) # this determines whether or not the integer is even
-            return number // 2 #determines if the number is even
+    def collatz(number): # a python program to 
+        if number % 2 == 0: # this determines whether or not the integer is even
+            print(number // 2) 
+            return number // 2 # function the control to the function that callled it rather than ending the function
 
         elif number % 2 == 1:
             result = 3 * number + 1
