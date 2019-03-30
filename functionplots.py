@@ -24,6 +24,18 @@ plt.plot (x,x**2)
 plt.plot (x,2**x)
 #Line 3 displays 2^x
 
+# Graph labelling
+My_title = f'Functions x, x^2 and 2^x in the range [{lower},{upper}]'
+# Title is set us as a readable string. 
+plt.title(my_title, fontweight="bold")
+
+plt.xlabel('x - axis')
+# X axis is labelled 
+
+plt.ylabel('y - axis')
+# X axis is labelled .
+# Reference: https://matplotlib.org/api/text_api.html?highlight%3Dfontweight%23matplotlib.text.Text.get_fontweight&sa=D&source=hangouts&ust=1554075189421000&usg=AFQjCNE6Vi9Ok5-WxvK6qx136IKE2Y3wrQ
+
 
 #Allocating labels for x and y axis
 plt.xlabel("number") 
