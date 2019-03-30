@@ -28,7 +28,8 @@ This problem takes a user input string and outputs every second word. The user c
 Problem Set 7 squareroot.py
 https://www.geeksforgeeks.org/python-math-function-sqrt/
 
-datetime.py
+Problem Set 8 datetime.py
+This program outputs the today's date and time in a specific format
 
 second.py moby-dick.txt
 
@@ -60,7 +61,10 @@ Problem Set 6:
 This problem looks at dissecting strings of texts using the the string.split function. 
 Additional functions must be executed such as ''.join and the use of list brackets []. 
 
-Problem Set 7
+Problem Set 7:
+
+Problem Set 8: 
+The problem imports the module datetime and using specific striftime coding, the program outputs today's date and time in a specific format.
 
 
 
@@ -70,5 +74,5 @@ A Whirlwind Tour of Python by Jake VanderPlas (O’Reilly). Copyright 2016 O’R
 www.pynative.com: Python range() Function Explained with Examples Accessed on March, 26th 2019 https://pynative.com/python-range-function/
 https://www.pythonforbeginners.com/ Last Accessed March, 30th 2019
 https://docs.python.org/3/tutorial/introduction.html Last Accessed March, 30th 2019
-
+https://www.w3schools.com/python/python_modules.asp 
  
