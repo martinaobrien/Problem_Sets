@@ -4,11 +4,13 @@
 
 Introduction to Programming and Scripting Problem set designed to develop programmes usings python programming language. 
 
-#List of Problem Sets
+# List of Problem Sets
 
 Problem Set 1 sumupto.py
 
 This problem set seeks to calculate the sum of all the numbers between one and an inputted by the user. 
+
+~ Key points
 Input variable is needed for calculation
 Ensure that value of inputted number is positive by including the syntax ==0. 
 While loop was inserted, the programme kept looping in the while loop as long as the argument is true
