@@ -15,8 +15,17 @@ upper = int(input('enter upper: '))
 x = np.arange(lower, upper)
 #x creates the range for lower and upper values
 
-plt.plot (x,x)  
+plt.plot (x,x) 
+#Line displays x
+
+plt.plot (x,x**2)
+#Line 2 displays x^2
+
+plt.plot (x,2**x)
+#Line 3 displays 2^x
+
+
+#Allocating labels for x and y axis
 plt.xlabel("number") 
 plt.ylabel("number")
 plt.show()
-
