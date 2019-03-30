@@ -16,7 +16,8 @@ This programme outputs whether today is a day that starts with a T. This program
 Problem Set 3 python divisors.py
 This programme prints all the numbers between two integers that are divisible by 6 but not 12
 
-collatz.py
+Problem Set 4: collatz.py 
+This programme looks to initial the Collatz Conjecture that requires calculation on the number inputted at numerous stages until the value becomes one. 
 
 priimes.py
 This problem uses a control flow that executes a code block that meets certain conditions to identify whether or not the number the user inputs is a prime number.
@@ -47,6 +48,8 @@ Problem Set 3:
 This problem uses a for loop statement to go through a number of interations as the programme has to consider all integers between to two inputted numbers. Only true statements are printed out in a list format. 
 
 Problem Set 4:
+This program calls the def (collatz) function to collate and list the outputs generated from the calculations completed throughout the programme in the the inputted number is values at 1
+The return statement is also used the return the value in the if and elif loops. 
 
 Problem Set 5: 
 This problem uses a control flow that executes a code block that meets certain conditions. 
