@@ -12,6 +12,8 @@
 i = int(input ('Enter Number: '))
 
 if i >= 0: # integer has to be greater than 0, the if statement investigates whether an argument is true
+    
+    print(i)
     def collatz(number): 
         if number % 2 == 0: # determines whether or not the integer is even
             print(number // 2) 
