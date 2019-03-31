@@ -22,12 +22,11 @@ Indentation is key expecially as the print function is not part of the previous 
     Problem Set 2 begins-with-t.py
 This programme outputs whether today is a day that starts with a T. This programme using an 'if' and 'else' statement to determine this using the datetime function.
 
-~ Key points
 Import 'datetime' function to enable the programme to work with dates as date objects as this is not innate.
 
 Use of "if" and "else" statement to determine whether or not the statement is true
 
-    Probulem Set 3 python divisors.py
+    Problem Set 3 python divisors.py
 This programme prints all the numbers between two integers that are divisible by 6 but not 12
 
 ~ Key points
