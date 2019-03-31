@@ -106,6 +106,6 @@ A Whirlwind Tour of Python by Jake VanderPlas (O’Reilly). Copyright 2016 O’R
 www.pynative.com: Python range() Function Explained with Examples Accessed on March, 26th 2019 https://pynative.com/python-range-function/
 https://www.pythonforbeginners.com/ Last Accessed March, 30th 2019
 https://docs.python.org/3/tutorial/introduction.html Last Accessed March, 30th 2019
-https://www.w3schools.com/python/python_modules.asp 
-https://www.programiz.com/python-programming/datetime/strftime
- https://matplotlib.org/tutorials/introductory/pyplot.html 
+https://www.w3schools.com/python/python_modules.asp Last Accessed March, 30th 2019
+https://www.programiz.com/python-programming/datetime/strftime Last Accessed March, 30th 2019
+ https://matplotlib.org/tutorials/introductory/pyplot.html Last Accessed March, 30th 2019
