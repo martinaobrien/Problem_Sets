@@ -11,6 +11,7 @@ Introduction to Programming and Scripting Problem set designed to develop progra
 This problem set seeks to calculate the sum of all the numbers between one and an inputted by the user. 
 
 ~ Key points
+
 Input variable is needed for calculation
 
 Ensure that value of inputted number is positive by including the syntax ==0
@@ -22,6 +23,8 @@ Indentation is key expecially as the print function is not part of the previous 
     Problem Set 2 begins-with-t.py
 This programme outputs whether today is a day that starts with a T. This programme using an 'if' and 'else' statement to determine this using the datetime function.
 
+ ~ Key Points
+
 Import 'datetime' function to enable the programme to work with dates as date objects as this is not innate.
 
 Use of "if" and "else" statement to determine whether or not the statement is true
@@ -30,6 +33,7 @@ Use of "if" and "else" statement to determine whether or not the statement is tr
 This programme prints all the numbers between two integers that are divisible by 6 but not 12
 
 ~ Key points
+
 This problem uses a for loop statement to go through a number of interations as the programme has to consider all integers between to two inputted numbers.
 
 Only true statements are printed out in a list format. 
@@ -38,6 +42,7 @@ Only true statements are printed out in a list format.
 This programme looks to initial the Collatz Conjecture that requires calculation on the number inputted at numerous stages until the value becomes one. 
 
 ~ Key points
+
 This program calls the def (collatz) function to collate and list the outputs generated from the calculations completed throughout the programme in the the inputted number is values at 1
 
 The return statement is also used the return the value in the if and elif loops.
@@ -46,6 +51,7 @@ The return statement is also used the return the value in the if and elif loops.
 This problem uses a control flow that executes a code block that meets certain conditions to identify whether or not the number the user inputs is a prime number
 
 ~ Key points
+
 This problem uses a control flow that executes a code block that meets certain conditions. 
 
 The statements must be nested in order to be executed sequentially
@@ -54,6 +60,7 @@ The statements must be nested in order to be executed sequentially
 This problem takes a user input string and outputs every second word. The user can input its own text and the program returns every second word.
 
 ~ Key points
+
 This problem used try and except to control the flow of user input and catch any errors to ensure a positive integer input
 
 This problem alsoas incorporated floating point numbers float (num)
@@ -62,6 +69,7 @@ This problem alsoas incorporated floating point numbers float (num)
 This problem takes a positive floating point number as inputs and approximation of its square root
 
 ~ Key points
+
 This problem used try and except to control the flow of user input and catch any errors to ensure a positive integer input
 
 This problem also incorporated floating point numbers float (num)
@@ -70,6 +78,7 @@ This problem also incorporated floating point numbers float (num)
 This program outputs the today's date and time in a specific format
 
 ~ Key points
+
 This problem used try and except to control the flow of user input and catch any errors to ensure a positive integer input
 
 This problem alsoas incorporated floating point numbers float (num)
@@ -79,12 +88,14 @@ This problem alsoas incorporated floating point numbers float (num)
 A program that reads a text file from a filename on the command line and outputs every second line
 
 ~ Key points
+
 Functions used are open to open a text file and readlines to read the content
 
     Problem Set 10 functionplots.py
 A programme that displays a plot of the functions x, x^2, 2^x
 
 ~ Key points
+
 Plot has a title as imported using Matplotlib
 
 Program uses functions from Matplotlib to ensure ease of user interface i.e. labelling graph and axis
