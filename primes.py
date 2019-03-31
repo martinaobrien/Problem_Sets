@@ -7,7 +7,7 @@ if number > 0:
     if number > 1: 
         for i in range (2, number): # use of for loop to repeatedly execute some code statement
              if (number % i) == 0: # this argument will check if the range of numbers between 2 and that number, checking each potential factor
-                print ('This is a prime number')
+                print ('This is not a prime number')
                 break # breaks out of the loop entirely
         else: # else statement is executed  if not of the factors divide the inputted number
             print(number,"is a prime number")
